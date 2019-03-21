@@ -1,0 +1,8 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+	<p>Logged out!</p>
+
+	<a href="{% url 'login'%}">Click here to login again.</a>
+	<a href="{% url 'post_list'%}">Click here to go Index</a>
+{% endblock %}
